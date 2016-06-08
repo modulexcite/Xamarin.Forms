@@ -51,7 +51,7 @@ namespace Xamarin.Forms.Platform.Android
 		{
 			if (_imageHeight > -1)
 			{
-				// We've got an image (and no text); it's already cenetered horziontally,
+				// We've got an image (and no text); it's already centered horizontally,
 				// we just need to adjust the padding so it centers vertically
 				var diff = (b - t - _imageHeight) / 2;
 				diff = Math.Max(diff, 0);
